@@ -4,16 +4,15 @@ import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
-  DropdownMenuGroup,
   DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { useRouter } from "next/navigation";
-import { Avatar, AvatarImage, AvatarFallback } from "./ui/avatar";
 import { LogOut } from "lucide-react";
+import { useRouter } from "next/navigation";
 import NavItems from "./NavItems";
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 
 const UserDropdown = () => {
   const router = useRouter();
